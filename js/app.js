@@ -21,7 +21,7 @@ $(function() {
 
             //解析データを整形
             // result.messageとresult.timeを改行で結合
-            let text = result.no + '\n' + result.score;
+            let text = result.no + '\n' + result.name +  '\n' + result.score;
   
             $("#ajax_return").text(text);
 
